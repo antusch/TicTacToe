@@ -34,7 +34,7 @@ public class TicTacToeGUI extends JFrame {
 		pane.setLayout(new GridLayout(size,size));
 		setTitle("Pierwszy program Antka!");
 		setSize(650,650);
-		// setResizable(false);
+		// setResizable(false);;
 		setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 		setVisible(true);
 		currentPlayer = "x";
